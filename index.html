@@ -3,14 +3,22 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="generator" content="GitLab Pages">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qatar predictions</title>
-    <link rel="stylesheet" href="css/snippets.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.3/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="css/kladza.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.7/xlsx.core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xls/0.7.4-a/xls.core.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
 </head>
 
 <body>
-
+    <input type="file" id="excelfile" />
+    <input type="button" id="viewfile" value="Export To Table" onclick="ExportToTable()" />
+    <br />
+    <br />
+    <table id="exceltable">
+    </table>
 
 </body>
 

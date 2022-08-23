@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,AAAA,IAAI,CAAC;EACD,gBAAgB,EATb,OAAe;EAUlB,KAAK,EATD,OAAO;CAUd",
+    "sources": [
+        "kladza.scss"
+    ],
+    "names": [],
+    "file": "kladza.css"
+}

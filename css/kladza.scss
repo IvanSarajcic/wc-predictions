@@ -1,0 +1,13 @@
+// colors
+$dark: rgb(40, 11, 25);
+$light: #ffe4ef;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $dark;
+    color: $light;
+}
